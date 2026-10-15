@@ -1,4 +1,7 @@
 === YouCam AI Image Tools ===
+Plugin Name: YouCam AI Image Tools
+Text Domain: youcam-ai-image-tools
+Domain Path: /languages
 Contributors: rickrods
 Donate link: https://my-portfolio-app-sepia-kappa.vercel.app/
 Tags: Image Tools, Image Enhancement, Image Generation, Photo, Editing, Tools woocommerce, Virtual Fitting, Try-On, ai clothes, fashion, perfectcorp, youcam 
@@ -105,3 +108,13 @@ When a visitor uploads a photo for virtual try-on, photo generation, or enhancem
 
 The plugin keeps temporary upload references for up to 15 minutes, try-on task ownership references for up to 24 hours, and poll-throttle markers for up to one day. The browser session stores only the upload token, until the session ends or the token expires. For monthly usage limits and accounting, the plugin stores aggregate request counts and API unit totals keyed by a hash derived from the WordPress user ID or the visitor's IP address, along with the feature and usage month. These hashes are pseudonymous identifiers, not a guarantee of anonymity. In **WooCommerce → Settings → Virtual Try On**, an administrator can choose a usage data retention period in days, weeks, months, or years. Monthly aggregates are deleted after that period has elapsed from the end of their usage month; current-month counters remain so monthly limits continue to work. The default is 30 days. Uninstalling the plugin removes its settings, usage records, plugin transients, and scheduled cleanup event. It leaves images users saved to the WordPress Media Library and data held by the external YouCam service intact.
 
+* TODO
+- Support languages via Internationalize Your Plugin
+- Update Screenshots
+- Prepare to submit
+    - Include a 1-3-minute Demo video showing the experience end-to-end
+    - Judges are not required to watch beyond three minutes 
+    - should explain the YouCam API used in the submission
+    - should include footage that shows the Project functioning on the device for which it was built
+    - must be uploaded to and made publicly visible on YouTube (highly preferred), Vimeo, or Youku, and a link to the video must be provided on the submission form on the Hackathon Website; and
+    - must not include third party trademarks, or copyrighted music or other material unless the Entrant has permission to use such material.

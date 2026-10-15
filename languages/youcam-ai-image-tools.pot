@@ -1,0 +1,1793 @@
+# Copyright (C) 2026 Rickrods
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: YouCam AI Image Tools 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/youcam-ai-image-tools\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-15T19:23:43+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: youcam-ai-image-tools\n"
+
+#. Plugin Name of the plugin
+#: youcam-ai-image-tools.php
+#: includes/class-youcam-ai-image-tools-settings.php:63
+msgid "YouCam AI Image Tools"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: youcam-ai-image-tools.php
+msgid "https://my-portfolio-app-sepia-kappa.vercel.app"
+msgstr ""
+
+#. Description of the plugin
+#: youcam-ai-image-tools.php
+msgid "Provides YouCam AI image tools for WordPress, with optional WooCommerce virtual try-on support."
+msgstr ""
+
+#. Author of the plugin
+#: youcam-ai-image-tools.php
+msgid "Rickrods"
+msgstr ""
+
+#. Author URI of the plugin
+#: youcam-ai-image-tools.php
+msgid "https://my-portfolio-app-sepia-kappa.vercel.app/"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-ajax.php:61
+#: includes/class-youcam-ai-image-tools-ajax.php:66
+#: includes/class-youcam-ai-image-tools-tools.php:364
+msgid "Security check failed. Please refresh the page and try again."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-ajax.php:95
+msgid "Upload limits could not be checked. Please try again later."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-ajax.php:95
+msgid "Too many image uploads. Please try again later."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-ajax.php:111
+#: includes/class-youcam-ai-image-tools-ajax.php:154
+msgid "The image file could not be read."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-ajax.php:120
+msgid "Could not determine the image file size."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-ajax.php:160
+msgid "Use a JPG, PNG, or WebP image smaller than 10 MB with dimensions no larger than 4096 pixels per side."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-ajax.php:181
+msgid "Missing image URL."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-ajax.php:189
+msgid "The configured model image URL is invalid."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-ajax.php:193
+msgid "Could not create a temporary image file."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-ajax.php:205
+msgid "The configured model image could not be downloaded."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-ajax.php:219
+msgid "Could not prepare the downloaded image."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-ajax.php:314
+msgid "No photo was uploaded."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-ajax.php:325
+msgid "The image is too large. Maximum size is 10 MB."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-ajax.php:390
+#: includes/class-youcam-ai-image-tools-ajax.php:466
+msgid "WooCommerce product was not found."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-ajax.php:392
+msgid "The selected product is unavailable."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-ajax.php:395
+msgid "The product does not have a usable image."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-ajax.php:407
+msgid "The configured model image is unavailable."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-ajax.php:415
+#: includes/class-youcam-ai-image-tools-ajax.php:472
+msgid "The selected default model is not configured."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-ajax.php:454
+msgid "Choose a valid person image source."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-ajax.php:455
+#: includes/class-youcam-ai-image-tools-tools.php:607
+#: includes/class-youcam-ai-image-tools-tools.php:906
+msgid "Choose a configured model."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-ajax.php:460
+msgid "Please upload your photo again."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-ajax.php:463
+msgid "Your uploaded photo expired. Please upload it again."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-ajax.php:468
+#: includes/class-youcam-ai-image-tools-ajax.php:470
+msgid "The selected product image is unavailable."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-ajax.php:480
+msgid "The selected model could not be prepared."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-ajax.php:516
+msgid "No task ID was returned by the API."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-ajax.php:548
+msgid "Missing task ID."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-ajax.php:556
+msgid "This task is unavailable. Please start a new try-on."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-ajax.php:560
+msgid "Please wait a moment before checking this task again."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-ajax.php:588
+msgid "The AI processing failed. Please try again."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-api-client.php:126
+msgid "Unexpected response from File API."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-api-client.php:153
+msgid "The image file could not be found."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-api-client.php:159
+msgid "The image file must be no larger than 10 MB."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-api-client.php:166
+msgid "Unable to read the image file."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-api-client.php:194
+msgid "The image could not be uploaded to the YouCam File API."
+msgstr ""
+
+#. translators: %d: HTTP status code
+#: includes/class-youcam-ai-image-tools-api-client.php:204
+#, php-format
+msgid "File upload failed with status code %d."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-api-client.php:265
+msgid "Try-on requests must use validated YouCam File API image IDs."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-api-client.php:364
+msgid "The YouCam API could not be reached. Check the API settings and try again."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-api-client.php:374
+msgid "The API returned an invalid response."
+msgstr ""
+
+#. translators: %d: HTTP status code
+#: includes/class-youcam-ai-image-tools-api-client.php:384
+#, php-format
+msgid "The YouCam API returned an error (HTTP %d)."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-frontend.php:99
+#: includes/class-youcam-ai-image-tools-frontend.php:187
+msgid "Virtual Try-On"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-frontend.php:105
+msgid "Virtual try-on is not available at this time."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-frontend.php:171
+#: includes/class-youcam-ai-image-tools-frontend.php:185
+msgid "Female Model"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-frontend.php:172
+#: includes/class-youcam-ai-image-tools-frontend.php:186
+msgid "Male Model"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-frontend.php:175
+msgid "Uploading your photo..."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-frontend.php:176
+msgid "AI is generating your try-on..."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-frontend.php:177
+msgid "Here is your virtual try-on result!"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-frontend.php:178
+msgid "Something went wrong. Please try again."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-frontend.php:179
+msgid "Please upload a photo or select a default model."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-frontend.php:180
+msgid "Please upload a JPG, PNG, or WebP image."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-frontend.php:181
+#: includes/class-youcam-ai-image-tools-tools.php:178
+#: includes/class-youcam-ai-image-tools-tools.php:225
+#: includes/class-youcam-ai-image-tools-tools.php:858
+#: includes/class-youcam-ai-image-tools-tools.php:872
+#: includes/class-youcam-ai-image-tools-tools.php:929
+msgid "Close"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-frontend.php:182
+msgid "Try Again"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-frontend.php:183
+msgid "Use this model"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-frontend.php:184
+#: includes/class-youcam-ai-image-tools-tools.php:195
+msgid "Upload your own photo"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-frontend.php:188
+#: includes/class-youcam-ai-image-tools-tools.php:178
+#: includes/class-youcam-ai-image-tools-tools.php:202
+#: includes/class-youcam-ai-image-tools-tools.php:863
+#: includes/class-youcam-ai-image-tools-tools.php:933
+msgid "Drag & drop your photo here, or click to browse"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-frontend.php:189
+msgid "or choose a default model below"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-settings.php:63
+msgid "YouCam AI"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-settings.php:64
+msgid "Settings"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-settings.php:98
+#: includes/class-youcam-ai-image-tools-settings.php:102
+msgid "YouCam AI Image Tools Settings"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-settings.php:98
+msgid "Use the image generation and enhancement tools from the submenu."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-settings.php:104
+msgid "API"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-settings.php:105
+#, php-format
+msgid "API keys are available in the %s."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-settings.php:105
+msgid "YouCam API Dashboard"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-settings.php:106
+#, php-format
+msgid "Use an HTTPS base URL supplied by %s."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-settings.php:106
+msgid "YouCam API"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-settings.php:107
+msgid "Usage Limits"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-settings.php:108
+msgid "Monthly Request Limit:"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-settings.php:108
+msgid "Maximum generation and enhancement tasks per account each month (0 = unlimited). This applies to all accounts, including administrators."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-settings.php:110
+msgid "Usage data retention"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-settings.php:112
+msgid "Retain usage data for:"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-settings.php:112
+msgid "How long to keep historical usage data beyond the 30 days needed for monthly limits."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-settings.php:113
+msgid "Retention period unit:"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-settings.php:113
+msgid "Days"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-settings.php:113
+msgid "Weeks"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-settings.php:113
+msgid "Months"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-settings.php:113
+msgid "Years"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-settings.php:136
+msgid "Virtual try-on is currently disabled for your account."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-settings.php:138
+#: includes/class-youcam-ai-image-tools-settings.php:171
+msgid "You have reached this month’s virtual try-on limit."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-settings.php:168
+msgid "Could not reserve your try-on usage. Please try again."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-settings.php:190
+msgid "Could not reserve your monthly generation and enhancement allowance. Please try again."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-settings.php:193
+msgid "You have reached this month’s generation and enhancement task limit."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:24
+#: includes/class-youcam-ai-image-tools-tools.php:234
+msgid "Generate Images"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:25
+#: includes/class-youcam-ai-image-tools-tools.php:309
+msgid "Enhance Images"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:26
+#: includes/class-youcam-ai-image-tools-tools.php:138
+#: includes/class-youcam-ai-image-tools-tools.php:152
+#: includes/class-youcam-ai-image-tools-tools.php:339
+msgid "Enhance Face & Body"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:27
+#: includes/class-youcam-ai-image-tools-tools.php:139
+#: includes/class-youcam-ai-image-tools-tools.php:153
+#: includes/class-youcam-ai-image-tools-tools.php:257
+msgid "Enhance Beauty"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:34
+msgid "Describe the image content, style, and composition you want. Maximum 800 characters."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:35
+msgid "Describe what you do not want to appear in the generated image."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:36
+msgid "Choose the output dimensions and aspect ratio for your image."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:39
+msgid "Upload a clear portrait to create professional headshots."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:40
+msgid "Choose a predefined headshot style. Available styles are loaded from the API."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:43
+msgid "Upload a clear portrait to create avatar variations."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:44
+msgid "Choose a predefined avatar style. Available styles are loaded from the API."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:45
+msgid "Choose how many avatar images to generate."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:48
+msgid "Upload a portrait photo. The API requires the shorter image side to be at least 200 pixels."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:49
+msgid "Choose a predefined studio style. Available styles are loaded from the API."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:50
+msgid "Choose how many studio portraits to generate."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:53
+msgid "Upload the photo whose background you want to replace."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:54
+msgid "Describe the new background to generate. Maximum 500 characters."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:57
+msgid "Upload the image to sharpen and improve."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:58
+msgid "Select the image enlargement ratio: 1×, 2×, or 4×."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:60
+msgid "Upload the photo whose lighting you want to improve."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:61
+msgid "Upload the photo whose color and balance you want to correct."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:63
+msgid "Upload a photo with a subject in the foreground and a background to blur."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:64
+msgid "Set background blur from 0 (no blur) to 100 (maximum blur)."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:67
+msgid "Upload the target photo. The first detected face is replaced."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:68
+msgid "Upload the reference photo containing the face to use."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:71
+msgid "Upload a JPG image. The source is centered on the larger output canvas."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:72
+msgid "Set the output canvas width in pixels, up to 4096. It must be at least as wide as the source."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:73
+msgid "Set the output canvas height in pixels, up to 4096. It must be at least as tall as the source."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:75
+msgid "Upload a black-and-white photo to generate a colorized version."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:76
+msgid "Upload an image you own or have permission to edit."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:78
+msgid "Upload a clear photo showing the person’s torso."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:79
+msgid "Choose the abs effect style to apply."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:80
+msgid "Choose the effect strength. Level 2 applies the stronger effect."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:82
+msgid "Upload a clear portrait photo to preview an aged appearance."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:84
+msgid "Upload a photo with a clearly visible person. The adjustment applies to the first detected person."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:85
+msgid "Choose the body area or overall proportion to adjust."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:86
+msgid "Set the adjustment from -100 to 100. Negative and positive values change the selected feature in opposite directions; 0 makes no change."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:89
+msgid "Upload a clear photo showing the person’s upper body."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:90
+msgid "Choose the effect strength. Level 3 is the strongest."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:93
+msgid "Upload a clear portrait with a visible face. The adjustment applies to the first detected face."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:94
+msgid "Choose the facial feature to adjust."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:95
+msgid "Set the adjustment from -100 to 100. A value of 0 makes no change."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:98
+msgid "Upload a clear, front-facing photo with one visible face."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:99
+msgid "Set eye-bag enhancement strength from 0 (off) to 100 (maximum)."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:100
+msgid "Set cheek enhancement strength from 0 (off) to 100 (maximum)."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:101
+msgid "Set forehead enhancement strength from 0 (off) to 100 (maximum)."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:102
+msgid "Set face-shape enhancement strength from 0 (off) to 100 (maximum)."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:103
+msgid "Set mouth enhancement strength from 0 (off) to 100 (maximum)."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:106
+msgid "Upload a clear portrait photo to adjust the person’s expression."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:107
+msgid "Choose whether the generated smile shows teeth or keeps the mouth closed."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:109
+#: includes/class-youcam-ai-image-tools-tools.php:112
+#: includes/class-youcam-ai-image-tools-tools.php:113
+#: includes/class-youcam-ai-image-tools-tools.php:114
+#: includes/class-youcam-ai-image-tools-tools.php:119
+msgid "Upload a clear portrait with the person’s hair visible."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:109
+msgid "Choose a predefined bangs style. Available styles are loaded from the API."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:110
+msgid "Upload a clear JPG portrait with the lower face visible. The API supports images up to 1023 pixels per side."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:110
+msgid "Choose a predefined beard style. Available styles are loaded from the API."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:111
+msgid "Upload a clear portrait with visible hair. The image must be at least 320 pixels on each side and smaller than 1920 × 1080 pixels."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:111
+msgid "Choose a preset color or color combination to apply to the hair."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:112
+msgid "Choose a predefined hair-extension style. Available styles are loaded from the API."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:113
+msgid "Choose a predefined hairstyle. Available styles are loaded from the API."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:114
+msgid "Choose a predefined hair-volume style. Available styles are loaded from the API."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:115
+msgid "Upload a clear portrait to apply a complete makeup look."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:115
+msgid "Choose a predefined makeup look. Available looks are loaded from the API."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:116
+msgid "Upload the face photo that will receive the makeup."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:116
+msgid "Upload the reference photo whose makeup should be transferred."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:117
+msgid "Upload a clear photo of the hand that will receive the nail design."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:117
+msgid "Upload the reference image containing the nail design to transfer."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:118
+msgid "Upload a clear, front-facing portrait with visible teeth. Both image sides must be at least 320 pixels."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:119
+msgid "Choose a predefined wavy or curly style. Available styles are loaded from the API."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:137
+#: includes/class-youcam-ai-image-tools-tools.php:151
+msgid "Enhance Image"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:140
+#: includes/class-youcam-ai-image-tools-tools.php:154
+msgid "The enhancement panel could not be opened. Reload the page and try again."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:164
+msgid "AI Generate"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:167
+msgid "The AI Generate panel could not be opened. Reload the page and try again."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:169
+msgid "Model Product"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:178
+#: includes/class-youcam-ai-image-tools-tools.php:856
+#: includes/class-youcam-ai-image-tools-tools.php:926
+msgid "Working…"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:178
+#: includes/class-youcam-ai-image-tools-tools.php:856
+#: includes/class-youcam-ai-image-tools-tools.php:897
+msgid "Saving…"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:178
+#: includes/class-youcam-ai-image-tools-tools.php:857
+#: includes/class-youcam-ai-image-tools-tools.php:898
+msgid "Saved to Media Library"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:178
+#: includes/class-youcam-ai-image-tools-tools.php:857
+#: includes/class-youcam-ai-image-tools-tools.php:897
+msgid "Save to Media Library"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:178
+#: includes/class-youcam-ai-image-tools-tools.php:858
+#: includes/class-youcam-ai-image-tools-tools.php:899
+#: includes/class-youcam-ai-image-tools-tools.php:929
+msgid "The request could not be completed."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:178
+#: includes/class-youcam-ai-image-tools-tools.php:859
+msgid "Your result"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:178
+#: includes/class-youcam-ai-image-tools-tools.php:859
+msgid "Your image is ready."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:178
+#: includes/class-youcam-ai-image-tools-tools.php:860
+#: includes/class-youcam-ai-image-tools-tools.php:931
+msgid "The task finished, but the API response did not include a result image URL."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:178
+#: includes/class-youcam-ai-image-tools-tools.php:861
+#: includes/class-youcam-ai-image-tools-tools.php:932
+msgid "Open full-size image"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:178
+#: includes/class-youcam-ai-image-tools-tools.php:861
+msgid "View attachment"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:178
+#: includes/class-youcam-ai-image-tools-tools.php:862
+#: includes/class-youcam-ai-image-tools-tools.php:932
+msgid "Processing is taking longer than expected. Check again later."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:178
+#: includes/class-youcam-ai-image-tools-tools.php:203
+#: includes/class-youcam-ai-image-tools-tools.php:211
+#: includes/class-youcam-ai-image-tools-tools.php:863
+#: includes/class-youcam-ai-image-tools-tools.php:933
+msgid "JPG or PNG, smaller than 10 MB"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:178
+#: includes/class-youcam-ai-image-tools-tools.php:864
+#: includes/class-youcam-ai-image-tools-tools.php:934
+msgid "Use a JPG or PNG image."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:178
+#: includes/class-youcam-ai-image-tools-tools.php:864
+#: includes/class-youcam-ai-image-tools-tools.php:934
+msgid "Image files must be smaller than 10 MB."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:178
+#: includes/class-youcam-ai-image-tools-tools.php:865
+#: includes/class-youcam-ai-image-tools-tools.php:935
+msgid "Selected image preview"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:182
+msgid "You do not have permission to use these tools."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:183
+msgid "Choose a tool to enter its options and submit a task. Results are returned when processing finishes."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:196
+msgid "Select from library"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:210
+msgid "Choose a photo from your Media Library"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:235
+#: includes/class-youcam-ai-image-tools-tools.php:236
+#: includes/class-youcam-ai-image-tools-tools.php:237
+#: includes/class-youcam-ai-image-tools-tools.php:260
+msgid "API key is not configured."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:239
+msgid "Image Generator"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:239
+msgid "Create an image from a text description."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:239
+#: includes/class-youcam-ai-image-tools-tools.php:245
+#: includes/class-youcam-ai-image-tools-tools.php:872
+msgid "Generate image"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:240
+msgid "Headshot Generator"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:240
+msgid "Create professional headshots from a photo and style."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:240
+#: includes/class-youcam-ai-image-tools-tools.php:246
+msgid "Generate headshots"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:241
+msgid "Avatar Generator"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:241
+msgid "Create multiple styled avatars from a photo."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:241
+#: includes/class-youcam-ai-image-tools-tools.php:247
+msgid "Generate avatars"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:242
+msgid "Studio Generator"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:242
+msgid "Create studio-style portraits from a photo and template."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:242
+#: includes/class-youcam-ai-image-tools-tools.php:248
+msgid "Generate studio portraits"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:245
+#: includes/class-youcam-ai-image-tools-tools.php:872
+msgid "Prompt"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:245
+#: includes/class-youcam-ai-image-tools-tools.php:872
+msgid "Negative prompt (optional)"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:245
+#: includes/class-youcam-ai-image-tools-tools.php:872
+msgid "Image size"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:246
+#: includes/class-youcam-ai-image-tools-tools.php:247
+#: includes/class-youcam-ai-image-tools-tools.php:248
+#: includes/class-youcam-ai-image-tools-tools.php:292
+#: includes/class-youcam-ai-image-tools-tools.php:322
+#: includes/class-youcam-ai-image-tools-tools.php:323
+#: includes/class-youcam-ai-image-tools-tools.php:324
+#: includes/class-youcam-ai-image-tools-tools.php:325
+#: includes/class-youcam-ai-image-tools-tools.php:326
+#: includes/class-youcam-ai-image-tools-tools.php:329
+#: includes/class-youcam-ai-image-tools-tools.php:330
+#: includes/class-youcam-ai-image-tools-tools.php:350
+#: includes/class-youcam-ai-image-tools-tools.php:351
+#: includes/class-youcam-ai-image-tools-tools.php:352
+#: includes/class-youcam-ai-image-tools-tools.php:353
+#: includes/class-youcam-ai-image-tools-tools.php:354
+#: includes/class-youcam-ai-image-tools-tools.php:355
+#: includes/class-youcam-ai-image-tools-tools.php:356
+msgid "Photo"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:246
+msgid "Headshot style"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:246
+#: includes/class-youcam-ai-image-tools-tools.php:247
+#: includes/class-youcam-ai-image-tools-tools.php:248
+#: includes/class-youcam-ai-image-tools-tools.php:300
+msgid "Choose a style"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:246
+msgid "Headshot styles are unavailable. Check the API key and refresh this page."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:247
+msgid "Avatar style"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:247
+#: includes/class-youcam-ai-image-tools-tools.php:248
+msgid "Number of images"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:247
+msgid "Avatar styles are unavailable. Check the API key and refresh this page."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:248
+msgid "Studio style"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:248
+msgid "Studio styles are unavailable. Check the API key and refresh this page."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:262
+msgid "Bangs Filter"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:262
+msgid "Preview a range of bangs styles."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:262
+msgid "Apply bangs"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:263
+msgid "Beard Style Generator"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:263
+msgid "Preview a beard style on a portrait."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:263
+msgid "Generate beard style"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:264
+msgid "Hair Color"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:264
+msgid "Try a preset hair color on a portrait."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:264
+msgid "Apply hair color"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:265
+msgid "Hair Extension"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:265
+msgid "Preview a hair extension style."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:265
+msgid "Try hair extension"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:266
+msgid "Hair Style"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:266
+msgid "Preview a new hairstyle."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:266
+msgid "Try hairstyle"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:267
+msgid "Hair Volume"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:267
+msgid "Preview fuller hair styles."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:267
+msgid "Add hair volume"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:268
+msgid "Look Try On"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:268
+msgid "Apply a complete makeup look from a preset."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:268
+msgid "Try this look"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:269
+msgid "Makeup Transfer"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:269
+msgid "Transfer makeup from a reference photo."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:269
+msgid "Transfer makeup"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:270
+msgid "Nail Transfer"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:270
+msgid "Transfer a nail design from a reference image to a hand photo."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:270
+msgid "Transfer nail design"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:271
+msgid "Teeth Whitening"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:271
+msgid "Whiten teeth in a clear, front-facing portrait."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:271
+msgid "Whiten teeth"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:272
+msgid "Wavy Hair"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:272
+msgid "Preview a wavy or curly hairstyle."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:272
+msgid "Try wavy hair"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:289
+msgid "Your photo"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:290
+msgid "Reference photo"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:296
+msgid "Preset color"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:299
+msgid "Styles are unavailable."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:300
+#: includes/class-youcam-ai-image-tools-tools.php:350
+msgid "Style"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:300
+msgid "Styles are unavailable. Check the API key and refresh this page."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:302
+msgid "Choose a clear hand photo and a reference image with visible nails."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:303
+msgid "Use clear, front-facing photos with one fully visible face in each image."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:311
+msgid "Background Change"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:311
+msgid "Replace the background using a text description."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:311
+#: includes/class-youcam-ai-image-tools-tools.php:322
+msgid "Change background"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:312
+msgid "Photo Enhance"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:312
+msgid "Upscale a photo at the selected enhancement scale."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:312
+#: includes/class-youcam-ai-image-tools-tools.php:323
+msgid "Enhance photo"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:313
+msgid "Photo Lighting"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:313
+msgid "Improve the lighting in a photo."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:313
+#: includes/class-youcam-ai-image-tools-tools.php:324
+msgid "Improve lighting"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:314
+msgid "Photo Color Correction"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:314
+msgid "Correct color and balance in a photo."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:314
+#: includes/class-youcam-ai-image-tools-tools.php:325
+msgid "Correct colors"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:315
+msgid "Background Blur"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:315
+msgid "Blur the background while keeping the subject clear."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:315
+#: includes/class-youcam-ai-image-tools-tools.php:326
+msgid "Blur background"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:316
+msgid "Face Swap"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:316
+msgid "Replace the target photo’s face with a reference face."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:316
+#: includes/class-youcam-ai-image-tools-tools.php:327
+msgid "Swap face"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:317
+msgid "Image Extender"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:317
+msgid "Expand a photo onto a larger canvas."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:317
+#: includes/class-youcam-ai-image-tools-tools.php:328
+msgid "Extend image"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:318
+msgid "Photo Colorize"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:318
+msgid "Generate colorized versions of a black-and-white photo."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:318
+#: includes/class-youcam-ai-image-tools-tools.php:329
+msgid "Colorize photo"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:319
+msgid "Watermark Removal"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:319
+msgid "Remove marks from an image you have permission to edit."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:319
+#: includes/class-youcam-ai-image-tools-tools.php:330
+msgid "Remove watermark"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:322
+msgid "New background description"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:323
+msgid "Enhancement scale"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:326
+msgid "Blur intensity"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:327
+msgid "Target photo"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:327
+msgid "Reference face photo"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:327
+msgid "Swaps the first detected face in the target photo with the reference photo."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:328
+msgid "Photo (JPG)"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:328
+msgid "Set a larger canvas. The original photo is centered and the new area is generated around it."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:328
+msgid "Output width (pixels)"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:328
+msgid "Output height (pixels)"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:330
+msgid "Only remove marks from images you own or have permission to edit."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:341
+msgid "Abs Filter"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:341
+msgid "Apply a six-pack or vest-line effect to a photo."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:341
+#: includes/class-youcam-ai-image-tools-tools.php:350
+msgid "Apply Abs Filter"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:342
+msgid "Aging Simulation"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:342
+msgid "Preview an aged version of a portrait."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:342
+#: includes/class-youcam-ai-image-tools-tools.php:351
+msgid "Simulate aging"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:343
+msgid "Body Reshape"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:343
+msgid "Adjust body proportions and posture."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:343
+#: includes/class-youcam-ai-image-tools-tools.php:352
+msgid "Reshape body"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:344
+msgid "Breast Augmentation"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:344
+msgid "Adjust breast size with the selected intensity."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:344
+#: includes/class-youcam-ai-image-tools-tools.php:353
+msgid "Augment breasts"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:345
+msgid "Face Reshape"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:345
+msgid "Adjust facial features with custom controls."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:345
+#: includes/class-youcam-ai-image-tools-tools.php:354
+msgid "Reshape face"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:346
+msgid "Face Lift"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:346
+msgid "Refine facial features with adjustable enhancements."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:346
+#: includes/class-youcam-ai-image-tools-tools.php:355
+msgid "Apply face lift"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:347
+msgid "AI Smile"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:347
+msgid "Adjust the expression in a portrait."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:347
+#: includes/class-youcam-ai-image-tools-tools.php:356
+msgid "Add a smile"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:350
+#: includes/class-youcam-ai-image-tools-tools.php:353
+msgid "Intensity"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:352
+msgid "Choose one adjustment from -100 to 100. The effect is applied to the first detected person."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:352
+#: includes/class-youcam-ai-image-tools-tools.php:354
+msgid "Adjustment"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:352
+#: includes/class-youcam-ai-image-tools-tools.php:354
+msgid "Amount (-100 to 100)"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:354
+msgid "Choose one facial adjustment from -100 to 100. The effect is applied to the first detected face."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:355
+msgid "Use a clear, front-facing photo with one visible face. The Face Lift API supports images up to 1920 pixels per side."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:355
+msgid "Enhancement strength (0–100)"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:355
+msgid "Eye bags"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:355
+msgid "Cheeks"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:355
+msgid "Forehead"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:355
+msgid "Face shape"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:355
+msgid "Mouth"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:356
+msgid "Smile style"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:356
+msgid "Smile with teeth visible"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:356
+msgid "Closed-mouth smile"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:366
+msgid "Permission denied."
+msgstr ""
+
+#. translators: %s: WordPress HTTP transport error.
+#: includes/class-youcam-ai-image-tools-tools.php:421
+#, php-format
+msgid "WordPress could not download the image: %s"
+msgstr ""
+
+#. translators: 1: HTTP status code, 2: HTTP status message.
+#: includes/class-youcam-ai-image-tools-tools.php:431
+#, php-format
+msgid "The image host returned HTTP %1$d%2$s while WordPress downloaded the image."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:492
+msgid "Please choose an image file."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:495
+msgid "Image files must be non-empty and smaller than 10 MB."
+msgstr ""
+
+#. translators: %d: maximum image side length in pixels.
+#: includes/class-youcam-ai-image-tools-tools.php:497
+#, php-format
+msgid "Use a JPG or PNG image with dimensions no larger than %d pixels per side."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:517
+msgid "You cannot use this attachment as an image source."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:519
+msgid "The selected attachment file is unavailable."
+msgstr ""
+
+#. translators: 1: allowed image formats, 2: maximum image side length.
+#: includes/class-youcam-ai-image-tools-tools.php:524
+#, php-format
+msgid "The selected attachment must be a %1$s image smaller than 10 MB and no larger than %2$d pixels per side."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:533
+msgid "The selected model is not configured."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:535
+msgid "Could not prepare the configured model image."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:541
+msgid "The configured model image could not be prepared. Use a JPG or PNG smaller than 10 MB and no larger than 4096 pixels per side."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:566
+#: includes/class-youcam-ai-image-tools-tools.php:708
+msgid "Unknown tool."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:567
+msgid "You do not have permission to create product model images."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:572
+msgid "Choose a supported generated image count."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:582
+msgid "Enter a prompt of up to 800 characters."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:590
+msgid "Enter a valid headshot template ID."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:594
+msgid "Choose a valid avatar style."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:598
+msgid "Choose a valid studio style."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:601
+msgid "Use a portrait photo with a short side of at least 200 pixels."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:605
+#: includes/class-youcam-ai-image-tools-tools.php:894
+msgid "Set a Product image before modeling this product."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:617
+msgid "The API did not return a valid try-on task ID."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:628
+msgid "Beard Style Generator accepts JPG images only."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:632
+msgid "Choose a valid style."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:636
+msgid "Hair Color requires an image at least 320 pixels on each side and less than 1920 by 1080 pixels."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:639
+msgid "Choose a supported hair color preset."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:647
+msgid "Teeth Whitening requires an image with both sides at least 320 pixels."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:657
+msgid "Image Extender accepts JPG images only."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:658
+msgid "Enter a background description."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:662
+msgid "Face Lift values must be whole numbers between 0 and 100."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:663
+msgid "Set at least one Face Lift enhancement above 0."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:675
+msgid "Output dimensions must fit the source image and expand at least one side, up to 4096 pixels."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:689
+msgid "The API did not return a valid face detection task ID."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:702
+msgid "Choose a valid non-zero adjustment within the supported range."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:713
+msgid "The API did not return a valid task ID."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:725
+msgid "Invalid task request."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:730
+msgid "This task is unavailable. Start a new task and try again."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:732
+msgid "Please wait before checking this task again."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:743
+#: includes/class-youcam-ai-image-tools-tools.php:746
+msgid "The API returned an invalid task response."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:749
+msgid "Face swap session expired. Please submit the images again."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:755
+msgid "The API did not return a valid face swap task ID."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:766
+msgid "The effect session expired. Please submit the image again."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:776
+msgid "The API did not return a valid effect task ID."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:805
+msgid "You do not have permission to add images to the Media Library."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:809
+#: includes/class-youcam-ai-image-tools-tools.php:953
+msgid "The result image URL is invalid."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:818
+#: includes/class-youcam-ai-image-tools-tools.php:959
+msgid "WordPress could not prepare a temporary image file."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:830
+msgid "The result must be a JPG, PNG, or WebP image smaller than 10 MB."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:835
+msgid "Generated or enhanced with YouCam AI Image Tools"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:851
+msgid "You do not have permission to generate images here."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:865
+msgid "Image selected in the media library."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:870
+msgid "Create an image and save it directly to the Media Library."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:871
+#: includes/class-youcam-ai-image-tools-tools.php:896
+#: includes/class-youcam-ai-image-tools-tools.php:906
+msgid "Generate Image"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:882
+msgid "You do not have permission to model product images."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:895
+msgid "Configure at least one model under WooCommerce → Settings → Virtual Try On."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:898
+msgid "The saved image is selected. Use Add to gallery to add it."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:899
+msgid "Creating the model image…"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:900
+msgid "The saved image is selected for your product gallery."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:906
+msgid "Create Image with Model"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:906
+msgid "The current Product image will be used as the product reference."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:918
+msgid "You do not have permission to enhance this image."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:926
+msgid "Saving Enhancement…"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:927
+msgid "Save Enhancement"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:927
+msgid "Discard Enhancement"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:928
+msgid "Could not save the enhancement. The attachment was left unchanged."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:930
+msgid "Enhancement preview"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:930
+msgid "Review the result, then save it or discard it."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:949
+msgid "You do not have permission to edit Media Library images."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:951
+msgid "You cannot edit this image attachment."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:966
+msgid "The enhancement must be a JPG, PNG, or WebP image smaller than 10 MB."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:972
+msgid "The original attachment file or metadata is unavailable."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:977
+msgid "WordPress could not store the enhancement beside the attachment."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:989
+msgid "WordPress could not create image sizes for the enhancement."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:991
+msgid "WordPress could not update the attachment file."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-tools.php:1003
+msgid "WordPress could not update the attachment metadata. The original image has been restored."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-wc-settings-page.php:8
+msgid "Virtual Try On"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-wc-settings-page.php:35
+msgid "Choose Image"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-wc-settings-page.php:36
+msgid "Remove"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-wc-settings-page.php:50
+msgid "Guest Access:"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-wc-settings-page.php:55
+msgid "Enable virtual try-on for guests"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-wc-settings-page.php:56
+msgid "Allow visitors who are not signed in to use virtual try-on."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-wc-settings-page.php:62
+msgid "Monthly guest try-on limit"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-wc-settings-page.php:63
+msgid "Maximum try-on tasks per guest each month. Set to 0 for unlimited."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-wc-settings-page.php:72
+msgid "Signed-in User Access:"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-wc-settings-page.php:77
+msgid "Enable virtual try-on for users"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-wc-settings-page.php:78
+msgid "Allow signed-in customers to use virtual try-on."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-wc-settings-page.php:84
+msgid "Monthly user try-on limit"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-wc-settings-page.php:85
+msgid "Maximum try-on tasks per signed-in user each month. Set to 0 for unlimited."
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-wc-settings-page.php:95
+msgid "Model Settings:"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-wc-settings-page.php:100
+msgid "Female Model Name:"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-wc-settings-page.php:106
+msgid "Female Model Image:"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-wc-settings-page.php:112
+msgid "Male Model Name:"
+msgstr ""
+
+#: includes/class-youcam-ai-image-tools-wc-settings-page.php:118
+msgid "Male Model Image:"
+msgstr ""
