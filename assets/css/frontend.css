@@ -1,0 +1,479 @@
+/* YouCam AI Image Tools — Frontend Styles */
+
+/* Button wrapper */
+.ycait-button-wrapper {
+	margin-top: 1.2em;
+}
+
+.ycait-tryon-btn {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	padding: 10px 24px !important;
+	font-size: 15px;
+	font-weight: 600;
+	border-radius: 8px;
+	border: 2px solid #1a73e8;
+	background: #1a73e8;
+	color: #fff !important;
+	cursor: pointer;
+	transition: all 0.25s ease;
+	line-height: 1.4;
+}
+
+.ycait-tryon-btn:hover:not(:disabled) {
+	background: #1557b8;
+	border-color: #1557b8;
+	transform: translateY(-1px);
+	box-shadow: 0 4px 12px rgba(26, 115, 232, 0.3);
+}
+
+.ycait-tryon-btn:disabled {
+	opacity: 0.5;
+	cursor: not-allowed;
+}
+
+.ycait-tryon-icon svg {
+	width: 20px;
+	height: 20px;
+	display: block;
+}
+
+.ycait-unavailable-msg {
+	font-size: 13px;
+	color: #999;
+	margin-top: 6px;
+	margin-bottom: 0;
+}
+
+/* Modal overlay */
+.ycait-modal-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.65);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 100000;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.ycait-modal-overlay.ycait-active {
+	opacity: 1;
+	visibility: visible;
+}
+
+/* Modal dialog */
+.ycait-modal {
+	background: #fff;
+	border-radius: 16px;
+	width: 90%;
+	max-width: 560px;
+	max-height: 92vh;
+	overflow-y: auto;
+	padding: 0;
+	position: relative;
+	transform: translateY(20px) scale(0.96);
+	transition: transform 0.3s ease;
+	box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+}
+
+.ycait-modal-overlay.ycait-active .ycait-modal {
+	transform: translateY(0) scale(1);
+}
+
+/* Modal header */
+.ycait-modal-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 24px;
+	border-bottom: 1px solid #eee;
+}
+
+.ycait-modal-title {
+	font-size: 20px;
+	font-weight: 700;
+	margin: 0;
+	color: #1a1a1a;
+}
+
+.ycait-modal-close {
+	background: none;
+	border: none;
+	font-size: 26px;
+	color: #999;
+	cursor: pointer;
+	padding: 0;
+	width: 32px;
+	height: 32px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	transition: all 0.2s ease;
+	line-height: 1;
+}
+
+.ycait-modal-close:hover {
+	background: #f0f0f0;
+	color: #333;
+}
+
+/* Modal body */
+.ycait-modal-body {
+	padding: 24px;
+}
+
+.ycait-gender-select {
+	display: block;
+	margin-bottom: 16px;
+	color: #444;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.ycait-gender-select select {
+	margin-left: 8px;
+	padding: 8px 10px;
+	border: 1px solid #d0d0d0;
+	border-radius: 6px;
+	background: #fff;
+	color: #333;
+}
+
+/* Source selector tabs */
+.ycait-source-tabs {
+	display: flex;
+	gap: 0;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	overflow: hidden;
+	border: 1px solid #e0e0e0;
+}
+
+.ycait-source-tab {
+	flex: 1;
+	padding: 12px 16px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 600;
+	background: #f7f7f7;
+	color: #666;
+	border: none;
+	cursor: pointer;
+	transition: all 0.2s ease;
+}
+
+.ycait-source-tab.ycait-active {
+	background: #1a73e8;
+	color: #fff;
+}
+
+.ycait-source-tab:hover:not(.ycait-active) {
+	background: #ececec;
+}
+
+/* Source panels */
+.ycait-source-panel {
+	display: none;
+}
+
+.ycait-source-panel.ycait-active {
+	display: block;
+}
+
+/* Upload dropzone */
+.ycait-dropzone {
+	border: 2px dashed #ccc;
+	border-radius: 12px;
+	padding: 40px 20px;
+	text-align: center;
+	cursor: pointer;
+	transition: all 0.25s ease;
+	background: #fafafa;
+}
+
+.ycait-dropzone:hover,
+.ycait-dropzone.ycait-dragover {
+	border-color: #1a73e8;
+	background: #eff6ff;
+}
+
+.ycait-dropzone-text {
+	font-size: 15px;
+	color: #666;
+	margin: 0;
+}
+
+.ycait-dropzone-icon {
+	font-size: 36px;
+	color: #bbb;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.ycait-dropzone input[type="file"] {
+	display: none;
+}
+
+/* Preview of uploaded image */
+.ycait-upload-preview {
+	margin-top: 16px;
+	text-align: center;
+}
+
+.ycait-upload-preview img {
+	max-width: 200px;
+	max-height: 260px;
+	border-radius: 10px;
+	border: 1px solid #e0e0e0;
+}
+
+/* Default model selector */
+.ycait-models {
+	display: flex;
+	gap: 16px;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.ycait-model-card {
+	width: 160px;
+	border: 2px solid #e0e0e0;
+	border-radius: 12px;
+	overflow: hidden;
+	cursor: pointer;
+	transition: all 0.25s ease;
+	background: #fff;
+}
+
+.ycait-model-card:hover {
+	border-color: #1a73e8;
+	transform: translateY(-2px);
+	box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.ycait-model-card.ycait-selected {
+	border-color: #1a73e8;
+	box-shadow: 0 0 0 3px rgba(26, 115, 232, 0.15);
+}
+
+.ycait-model-card img {
+	width: 100%;
+	height: 210px;
+	object-fit: cover;
+	display: block;
+}
+
+.ycait-model-card-label {
+	padding: 10px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 600;
+	color: #333;
+}
+
+.ycait-or-divider {
+	text-align: center;
+	margin: 20px 0;
+	font-size: 13px;
+	color: #999;
+	position: relative;
+}
+
+.ycait-or-divider::before,
+.ycait-or-divider::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	width: 40%;
+	height: 1px;
+	background: #e0e0e0;
+}
+
+.ycait-or-divider::before {
+	left: 0;
+}
+
+.ycait-or-divider::after {
+	right: 0;
+}
+
+/* Action button */
+.ycait-modal-action {
+	width: 100%;
+	padding: 14px;
+	font-size: 16px;
+	font-weight: 700;
+	border-radius: 10px;
+	border: none;
+	background: #1a73e8;
+	color: #fff;
+	cursor: pointer;
+	transition: all 0.25s ease;
+	margin-top: 20px;
+}
+
+.ycait-modal-action:hover:not(:disabled) {
+	background: #1557b8;
+	transform: translateY(-1px);
+	box-shadow: 0 4px 12px rgba(26, 115, 232, 0.3);
+}
+
+.ycait-modal-action:disabled {
+	opacity: 0.5;
+	cursor: not-allowed;
+}
+
+/* Loading state */
+.ycait-loading {
+	text-align: center;
+	padding: 40px 20px;
+}
+
+.ycait-spinner {
+	width: 48px;
+	height: 48px;
+	border: 4px solid #e0e0e0;
+	border-top-color: #1a73e8;
+	border-radius: 50%;
+	margin: 0 auto 20px;
+	animation: ycait-spin 0.8s linear infinite;
+}
+
+@keyframes ycait-spin {
+	to { transform: rotate(360deg); }
+}
+
+.ycait-loading-text {
+	font-size: 16px;
+	font-weight: 600;
+	color: #333;
+	margin: 0 0 8px;
+}
+
+.ycait-loading-subtext {
+	font-size: 14px;
+	color: #888;
+	margin: 0;
+}
+
+/* Progress steps */
+.ycait-steps {
+	display: flex;
+	justify-content: center;
+	gap: 24px;
+	margin-top: 24px;
+}
+
+.ycait-step {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	font-size: 13px;
+	color: #aaa;
+	transition: color 0.3s ease;
+}
+
+.ycait-step.ycait-step-active {
+	color: #1a73e8;
+	font-weight: 600;
+}
+
+.ycait-step.ycait-step-done {
+	color: #34a853;
+}
+
+.ycait-step-dot {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #ddd;
+	transition: background 0.3s ease;
+}
+
+.ycait-step.ycait-step-active .ycait-step-dot {
+	background: #1a73e8;
+	animation: ycait-pulse 1.2s ease-in-out infinite;
+}
+
+.ycait-step.ycait-step-done .ycait-step-dot {
+	background: #34a853;
+}
+
+@keyframes ycait-pulse {
+	0%, 100% { opacity: 1; }
+	50% { opacity: 0.4; }
+}
+
+/* Result display */
+.ycait-result {
+	text-align: center;
+}
+
+.ycait-result-image {
+	max-width: 100%;
+	max-height: 500px;
+	border-radius: 12px;
+	border: 1px solid #e0e0e0;
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+	margin-bottom: 16px;
+}
+
+.ycait-result-text {
+	font-size: 16px;
+	font-weight: 600;
+	color: #34a853;
+	margin: 0 0 20px;
+}
+
+/* Error display */
+.ycait-error {
+	text-align: center;
+	padding: 30px 20px;
+}
+
+.ycait-error-icon {
+	font-size: 42px;
+	color: #ea4335;
+	margin-bottom: 14px;
+}
+
+.ycait-error-text {
+	font-size: 15px;
+	color: #333;
+	margin: 0 0 20px;
+	line-height: 1.5;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+	.ycait-modal {
+		width: 95%;
+		border-radius: 12px;
+	}
+
+	.ycait-modal-body {
+		padding: 16px;
+	}
+
+	.ycait-models {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.ycait-steps {
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	.ycait-source-tabs {
+		flex-direction: column;
+	}
+}
