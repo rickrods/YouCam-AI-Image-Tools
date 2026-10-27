@@ -9,6 +9,7 @@ class YCAIT_WC_Settings_Page extends WC_Settings_Page {
 		parent::__construct();
 		add_action( 'woocommerce_admin_field_ycait_model_image', array( $this, 'output_model_image_field' ) );
 		add_action( 'woocommerce_admin_field_ycait_separator', array( $this, 'output_separator' ) );
+		add_action( 'woocommerce_update_option_ycait_model_image', array( $this, 'save_model_image_field' ) );
 
 		// Woo checkboxes use yes/no; convert the existing 1/0 values without changing their meaning.
 		foreach ( array( 'ycait_guest_enabled', 'ycait_user_enabled' ) as $option ) {
@@ -21,9 +22,30 @@ class YCAIT_WC_Settings_Page extends WC_Settings_Page {
 		echo '<hr class="ycait-settings-separator">';
 	}
 
+	/** Persist the custom model image field when WooCommerce saves settings. */
+	public function save_model_image_field( $setting ) {
+		if ( empty( $setting['id'] ) ) {
+			return;
+		}
+		$option_id = $setting['id'];
+		// phpcs:ignore WordPress.Security.NonceVerification -- WooCommerce already verified the nonce.
+		$raw_value = isset( $_POST[ $option_id ] ) ? wp_unslash( $_POST[ $option_id ] ) : '';
+		if ( is_numeric( $raw_value ) ) {
+			$value = absint( $raw_value );
+			$value = $value && wp_attachment_is_image( $value ) ? $value : '';
+		} elseif ( is_string( $raw_value ) && '' !== $raw_value ) {
+			$url   = esc_url_raw( trim( $raw_value ) );
+			$parts = wp_parse_url( $url );
+			$value = is_array( $parts ) && 'https' === strtolower( $parts['scheme'] ?? '' ) && ! empty( $parts['host'] ) && ! isset( $parts['user'] ) && ! isset( $parts['pass'] ) && wp_http_validate_url( $url ) ? $url : '';
+		} else {
+			$value = '';
+		}
+		update_option( $option_id, $value );
+	}
+
 	public function output_model_image_field( $setting ) {
 		$image_name = $setting['id'];
-		$stored      = $setting['value'];
+		$stored      = get_option( $image_name, $setting['default'] ?? '' );
 		$id          = is_numeric( $stored ) ? absint( $stored ) : 0;
 		?>
 		<tr>
@@ -36,7 +58,7 @@ class YCAIT_WC_Settings_Page extends WC_Settings_Page {
 						<button type="button" class="button ycait-remove-image" data-target="<?php echo esc_attr( $image_name ); ?>"><?php esc_html_e( 'Remove', 'youcam-ai-image-tools' ); ?></button>
 					</div>
 					<span id="<?php echo esc_attr( $image_name ); ?>_preview" class="ycait-model-image-preview">
-						<?php if ( $id ) { echo wp_get_attachment_image( $id, 'full' ); } elseif ( $stored ) { ?><img src="<?php echo esc_url( $stored ); ?>" alt=""><?php } ?>
+						<?php if ( $id ) { echo wp_get_attachment_image( $id, 'full', false, array( 'style' => 'max-width:420px;max-height:640px;width:auto;height:auto;object-fit:contain;' ) ); } elseif ( $stored ) { ?><img src="<?php echo esc_url( $stored ); ?>" alt="" style="max-width:420px;max-height:640px;width:auto;height:auto;object-fit:contain;"><?php } ?>
 					</span>
 				</div>
 			</td>

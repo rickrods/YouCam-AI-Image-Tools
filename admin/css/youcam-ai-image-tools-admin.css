@@ -80,8 +80,8 @@
 #mainform > h2 { font-weight: 700; text-decoration: underline; }
 .ycait-model-image-controls { display: flex; flex-direction: column; align-items: flex-start; gap: 10px; }
 .ycait-model-image-buttons { display: flex; align-items: center; gap: 8px; }
-.ycait-model-image-preview { display: inline-flex; align-items: center; justify-content: flex-start; min-width: 80px; min-height: 80px; margin-left: 0; }
-.ycait-model-image-preview img { display: block; max-width: 100%; width: auto; max-height: 640px; height: auto; }
+.ycait-model-image-preview { display: inline-flex; align-items: center; justify-content: flex-start; max-width: 420px; max-height: 640px; margin-left: 0; }
+.ycait-model-image-preview img { display: block; max-width: 420px; width: auto; max-height: 640px; height: auto; object-fit: contain; }
 
 @media (max-width: 600px) {
 	.ycait-tools-modal-backdrop { align-items: flex-end; padding: 0; }

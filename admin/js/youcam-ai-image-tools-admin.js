@@ -14,7 +14,7 @@
 				var attachment = frame.state().get( 'selection' ).first().toJSON();
 				$( '#' + target ).val( attachment.id ).trigger( 'change' );
 				var imageUrl = attachment.url || ( attachment.sizes && attachment.sizes.full ? attachment.sizes.full.url : '' );
-				$( '#' + target + '_preview' ).empty().append( $( '<img>', { src: imageUrl, width: 80, height: 80, alt: '' } ).css( 'object-fit', 'cover' ) );
+				$( '#' + target + '_preview' ).empty().append( $( '<img>', { src: imageUrl, alt: '' } ).css( { 'max-width': '420px', 'max-height': '640px', 'width': 'auto', 'height': 'auto', 'object-fit': 'contain' } ) );
 			} );
 			frame.open();
 		} );
